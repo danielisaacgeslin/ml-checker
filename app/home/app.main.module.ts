@@ -16,11 +16,6 @@
             templateUrl: 'home/main.html',
             controller: 'mainController',
             controllerAs: 'vm'
-        }).state('/second', {
-            url: '/second',
-            templateUrl: 'home/second.html',
-            controller: 'secondController',
-            controllerAs: 'vm'
         });
     }
 })();
